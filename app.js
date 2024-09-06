@@ -40,6 +40,46 @@ function pesquisar() {
     section.innerHTML = resultados;
 }
 
+let topLinguagens = [
+  {
+    titulo: "JavaScript",
+    descricao: "JavaScript é essencial para o desenvolvimento web.",
+    imagem: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+  },
+  {
+    titulo: "Python",
+    descricao: "Python é amplamente utilizado em ciência de dados.",
+    imagem: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+  },
+  {
+    titulo: "Java",
+    descricao: "Java é popular em grandes sistemas corporativos.",
+    imagem: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+  }
+];
+
+function renderizarTopLinguagens() {
+  const listaLinguagens = document.getElementById("lista-linguagens");
+  let conteudo = "";
+
+  topLinguagens.forEach((linguagem) => {
+    conteudo += `
+      <li class="linguagem-item">
+        <img src="${linguagem.imagem}" alt="${linguagem.titulo}">
+        <h3>${linguagem.titulo}</h3>
+        <p>${linguagem.descricao}</p>
+      </li>
+    `;
+  });
+
+  listaLinguagens.innerHTML = conteudo;
+}
+
+window.onload = function() {
+  renderizarTopLinguagens();
+};
+
+
 
 
 
