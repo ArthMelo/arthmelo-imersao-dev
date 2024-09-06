@@ -49,5 +49,19 @@ let dados = [
     titulo: "SQL",
     descricao: "SQL é uma linguagem de consulta estruturada, usada para gerenciar e manipular dados em bancos de dados relacionais. É a linguagem padrão para interagir com bancos de dados como MySQL, PostgreSQL, SQL Server e Oracle.",
     link: "https://www.alura.com.br/artigos/o-que-e-sql?srsltid=AfmBOoobNld3hiQkvdwttp2HxaZ4vIwWjuOoTNDGOk4MJKf5iH-FvkK7" 
+  },
+
+  {
+    titulo: "Merge Sort",
+    descricao: "Merge Sort é um algoritmo de ordenação eficiente baseado na técnica de dividir para conquistar. Divide recursivamente a lista em sublistas menores até que cada sublista tenha apenas um elemento, e então combina essas sublistas de forma ordenada.",
+    link: "https://www.alura.com.br/artigos/merge-quick-sort-qual-o-melhor-algoritmo?srsltid=AfmBOorczq3IP7a_8ax3LgbufC00EQkUdol4Eru5MfT1Hj0yMqwYdrZd" // Link para um tutorial sobre Merge Sort
+  },
+
+  {
+    titulo: "Bubble Sort",
+    descricao: "Bubble Sort é um algoritmo de ordenação simples que compara elementos adjacentes e os troca de lugar se estiverem na ordem errada. Repete esse processo até que a lista esteja ordenada.",
+    link: "https://www.devmedia.com.br/bubble-sort/29924" // Link para um tutorial sobre Bubble Sort
   }
+
+
 ];
